@@ -1,14 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header, { Navbar } from './components/Navbar';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-   <h1>MyPortfolio</h1>
-   <Header />
-   <Footer />
+      <Navbar />
     </div>
   );
 }
