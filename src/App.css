@@ -7,9 +7,18 @@
 }
 
 body {
-  font-family: "Roboto Condesed" sans-serif;
+  font-family: "Roboto Condesed", sans-serif;
+  background-image: url("../src/img/pexels-photo-2047905.jpeg");
+  
+  /* background-size: cover; */
+  background-position-x: center;
 }
 
+.navbar {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+} 
 
 /*------ Menu Links ------*/
 nav a.nav-link {
@@ -43,3 +52,152 @@ nav ul li {
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
 }
+
+
+/*------ Header ------*/
+
+.header-wraper {
+  position: relative;
+}
+
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condesed", sans-serif;
+}
+
+.main-info h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+  
+}
+
+
+/*------ Tyed Text ------*/
+
+.type-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+}
+
+
+
+
+/* // =========================== CONTACT ================================ */
+
+.contact-form {
+  background-color: #ff5e00;
+  width: 350px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px 300px;
+  opacity: 0.5;
+
+}
+
+.contact-form:hover {
+  opacity: 0.75;
+}
+
+.contact-fieldset {
+  /* border-radius: 10px; */
+  border: .5px solid black;
+  margin: 10px 0px;
+}
+
+.contact-input {
+  height: 40px;
+  width: 277px;
+  margin: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+
+  
+}
+
+.contact-textarea {
+  max-width: 277px;
+  min-width: 277px;
+  margin: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+
+ 
+}
+
+.jump-container {
+  display: flex;
+  justify-content: center;
+  width: 350px;
+}
+
+
+
+/*------ Social Media ------*/
+
+
+.socials {
+  background-color: #ff5e00;
+  width: 150px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px 10px;
+  position: relative;
+  top: -550px;
+  float: right;
+  opacity: 0.50;
+}
+
+
+.socials:hover {
+  opacity: 0.75;
+}
+
+
+
+
+/*------ About ------*/
+
+
+.about {
+  background-color: #ff5e00;
+  width: 350px;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 10px 300px;
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (min-width: 992px){
+    .about-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    .about-left{
+        position: relative;
+    }
+    .about-left-content{
+        position: absolute;
+        width:80%
+    
+    }
+} */
