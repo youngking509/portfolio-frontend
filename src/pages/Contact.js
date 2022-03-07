@@ -1,25 +1,38 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faYoutube,
+    faFacebook,
+    faTwitter,
+    faInstagram,
+    faLinkedin,
+    faGithub,
+    faGoogle,
+} from "@fortawesome/free-brands-svg-icons";
 
 
 function Contact() {
     return (
         <div>
             <div className="contact-form">
-                <h1>Contact Me</h1>
+                <h1>Connect with me</h1>
                 <fieldset className="contact-fieldset">
-                    <legend className="contact-legend">Your Name</legend>
-                    <input type="name" placeholder='"Jimmy John"' className="contact-input" />
+                    {/* <h3>@LearnBuildTeach</h3> */}
+                    <a
+                        href="https://www.linkedin.com/in/kingzy-valcourt/"
+                        className="linkedin"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} size="4x" />
+                    </a>
+                    <a
+                        href="https://github.com/youngking509"
+                        className="github"
+                    >
+                        <FontAwesomeIcon icon={faGithub} size="4x" />
+                    </a>
                 </fieldset>
-                <fieldset className="contact-fieldset">
-                    <legend className="contact-legend">Your Email</legend>
-                    <input type="email" placeholder='"@email.com"' className="contact-input" /> <br />
-                </fieldset>
-                <fieldset className="contact-fieldset">
-                <legend className="contact-legend">Your message</legend>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Say Hello!" className="contact-textarea"></textarea>
-                </fieldset>
-                <button type="submit" className="create-update-btn">Send</button>
             </div>
+
 
             {/* <div className="socials">
                 <h3>Linkedin</h3>
@@ -32,7 +45,7 @@ function Contact() {
                 <p>253-652-8279</p>
             </div> */}
         </div>
-        
+
     );
 }
 

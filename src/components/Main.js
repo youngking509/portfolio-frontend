@@ -1,4 +1,4 @@
-import { Route, Switch, Routes, Link } from "react-router-dom";
+import { Route, Switch, Routes, Link, Redirect } from "react-router-dom";
 
 
 import Home from "../pages/Home";
@@ -14,6 +14,9 @@ const Main = () => {
         <div>
             <Switch>
                 <Route exact path="/">
+                    <Redirect to="/home" />
+                </Route>
+                <Route exact path="/home">
                     <Home />
                 </Route>
                 <Route exact path="/about">
