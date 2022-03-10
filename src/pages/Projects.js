@@ -27,7 +27,7 @@ function Projects() {
     <img src={img3} class="card-img-top" alt="..."/>
     <div class="card-body">
       <h5 class="card-title">The Finch Collector</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text">The Finch Collector is app that allows users to collect and store any type of finch's data, Should be able to make changes to the data or delete the data anytimes.</p>
       <a href="https://finch-collector-123.herokuapp.com/" class="btn btn-primary btn-lg" role="button" aria-disabled="true" target="_blank">View App</a>
       <a href="https://github.com/youngking509/Finch-Collector" class="btn btn-secondary btn-lg" role="button" aria-disabled="true" target="_blank">Git Repo</a>
     </div>
