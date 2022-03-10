@@ -1,3 +1,8 @@
+*{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 :root {
@@ -32,6 +37,7 @@ nav ul li {
 }
 
 .navbar-nav > li > a {
+  
   margin-right: 0.75rem;
   margin-left: 0.75rem;
   color: var(--primary-white) !important;
@@ -58,6 +64,7 @@ nav ul li {
 
 .header-wraper {
   position: relative;
+  margin-top: 30px;
 }
 
 
@@ -82,6 +89,7 @@ nav ul li {
 .type-text {
   font-size: 2rem;
   color: var(--primary-white);
+  margin-top: 100px;
 }
 
 
@@ -90,12 +98,17 @@ nav ul li {
 /* // =========================== CONTACT ================================ */
 
 .contact-form {
-  background-color: #ff5e00;
-  width: 350px;
+  background-color: gray;
+  /* width: 350px; */
   border-radius: 10px;
   padding: 20px;
-  margin: 10px 300px;
+  /* margin: 200px 700px; */
   /* opacity: 0.5; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  width: 40%;
 
 }
 
@@ -107,6 +120,11 @@ nav ul li {
   /* border-radius: 10px; */
   border: .5px solid black;
   margin: 10px 0px;
+}
+
+
+.connect {
+
 }
 
 .contact-input {
@@ -168,30 +186,33 @@ nav ul li {
 
 
 .about {
-  background-color: #ff5e00;
-  width: 350px;
+  /* background-color: #ff5e00; */
+  width: auto;
   border-radius: 10px;
-  padding: 40px;
-  margin: 10px 300px;
-  opacity: 0.5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 130px;
+  width: 50%;
+
+  color: #fff;
 }
 
 
-
-
-
-
-
-
-/* .card {
-  opacity: 0.70;
+.about-btns {
+  /* text-decoration: #ff5e00; */
 }
 
 
-.card:hover {
-  opacity: 1;
-} */
+.about-para {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: bold;
+}
 
+/*------ Projects ------*/
 
 .card-img-top{
   opacity: 0.40;

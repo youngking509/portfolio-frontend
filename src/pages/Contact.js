@@ -10,12 +10,14 @@ import {
     faGoogle,
 } from "@fortawesome/free-brands-svg-icons";
 
+import pdf from '../pdf/Kinzy Valcourt - RESUME .docx.pdf'
+
 
 function Contact() {
     return (
         <div>
             <div className="contact-form">
-                <h1>Connect with me</h1>
+                <h1 className="connect">Let's Connect</h1>
                 <fieldset className="contact-fieldset">
                     {/* <h3>@LearnBuildTeach</h3> */}
                     <a
@@ -30,6 +32,8 @@ function Contact() {
                     >
                         <FontAwesomeIcon icon={faGithub} size="4x" />
                     </a>
+
+                    <a href= {pdf} class="btn btn-secondary btn-lg" role="button" aria-disabled="true" target="_blank">Resume</a>
                 </fieldset>
             </div>
 

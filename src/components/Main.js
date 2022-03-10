@@ -14,7 +14,7 @@ const Main = () => {
         <div>
             <Switch>
                 <Route exact path="/">
-                    <Redirect to="/home" />
+                    <Redirect to="/home"  />
                 </Route>
                 <Route exact path="/home">
                     <Home />
