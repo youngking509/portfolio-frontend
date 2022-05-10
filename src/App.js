@@ -3,6 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Main from './components/Main';
+import Contact from './pages/Contact';
+import About from './pages/About';
+import Projects from './pages/Projects';
 
 
 function App() {
@@ -10,7 +13,9 @@ function App() {
     <div className="App">
       <Navbar fixed="top"/>
       <Main />
-      {/* <Header /> */}
+      {/* <About /> */}
+      {/* <Projects /> */}
+      {/* <Contact /> */}
     </div>
   );
 }

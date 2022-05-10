@@ -1,10 +1,12 @@
 
 import Typed from 'react-typed'
 import pdf from '../pdf/Kinzy Valcourt - RESUME .docx.pdf'
+import { Main } from '../components/Main.js'
 
 const Home = () => {
     return (
-      <div className="header-wraper">
+      <div>
+        <div className="header-wraper">
           <div className="main-info">
               <h1>Kingzy Valcourt</h1>
               
@@ -12,12 +14,13 @@ const Home = () => {
   
               <Typed 
                 className='type-text'
-                strings={['Software Testing & Debugging', 'Problem Solving & Logical Thinking', 'Written & Verbal Communication']}
-                typeSpeed={20}
-                backSpeed={30}
+                strings={['Software Engineering', 'Problem Solving']}
+                typeSpeed={15}
+                backSpeed={20}
                 loop
               />
           </div>
+      </div>
       </div>
     )
   }

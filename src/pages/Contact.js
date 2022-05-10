@@ -21,13 +21,13 @@ function Contact() {
                 <fieldset className="contact-fieldset">
                     {/* <h3>@LearnBuildTeach</h3> */}
                     <a
-                        href="https://www.linkedin.com/in/kingzy-valcourt/"
+                        href="https://www.linkedin.com/in/kingzy-valcourt/" target={"_blank"}
                         className="linkedin"
                     >
                         <FontAwesomeIcon icon={faLinkedin} size="4x" />
                     </a>
                     <a
-                        href="https://github.com/youngking509"
+                        href="https://github.com/youngking509" target={"_blank"}
                         className="github"
                     >
                         <FontAwesomeIcon icon={faGithub} size="4x" />
