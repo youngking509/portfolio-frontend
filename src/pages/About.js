@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 
-import pdf from '../pdf/Kinzy Valcourt - RESUME .docx.pdf'
+import pdf from '../pdf/Kingzy_Valcourt_Resume_.PDF'
 
 import img1 from '../img/me.JPG';
 

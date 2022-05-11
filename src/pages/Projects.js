@@ -8,7 +8,7 @@ function Projects() {
     <div>
 
       <div class="header">
-        <h1>Here are some of the projects that I've build</h1>
+        <h1>Here are some of the projects that I've built</h1>
       </div>
 
       <div class="card-group">

@@ -1,6 +1,6 @@
 
 import Typed from 'react-typed'
-import pdf from '../pdf/Kinzy Valcourt - RESUME .docx.pdf'
+import pdf from '../pdf/Kingzy_Valcourt_Resume_.PDF'
 import { Main } from '../components/Main.js'
 
 const Home = () => {

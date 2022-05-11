@@ -10,7 +10,7 @@ import {
     faGoogle,
 } from "@fortawesome/free-brands-svg-icons";
 
-import pdf from '../pdf/Kinzy Valcourt - RESUME .docx.pdf'
+import pdf from '../pdf/Kingzy_Valcourt_Resume_.PDF'
 
 
 function Contact() {
